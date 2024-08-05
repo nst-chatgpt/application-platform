@@ -1,0 +1,4 @@
+[server]
+port = 8000
+enableXsrfProtection = false
+enableCORS = false
