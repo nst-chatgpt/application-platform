@@ -13,6 +13,13 @@ st.write('アプリ基盤')
 
 st.header('検証アプリ')
 
+# ボタンを作成
+if st.button('クリックしてください'):
+    print('ボタンをクリック')
+    st.write('ボタンがクリックされました!')
+else:
+    st.write('ボタンがまだクリックされていません。')
+
 # llm = AzureChatOpenAI(
 #     openai_api_version = '2024-06-01',
 #     azure_deployment = 'gpt-4o',
